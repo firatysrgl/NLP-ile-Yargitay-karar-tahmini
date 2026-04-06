@@ -1,0 +1,6 @@
+# Bu proje şu an için sadece Python Standart Kütüphanelerini (Standard Library) kullanmaktadır.
+# Herhangi bir harici paket (pip install) gerektirmez.
+
+# Gelecekte NLP yeteneklerini artırmak istersen şunları ekleyebilirsin:
+# spacy>=3.7.0
+# pandas>=2.0.0

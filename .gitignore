@@ -1,0 +1,25 @@
+
+# --- VERİ DOSYALARI ---
+data/raw/*
+data/processed/*
+
+
+
+# --- PYTHON ÇÖPLERİ ---
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+ENV/
+build/
+dist/
+
+# --- IDE AYARLARI ---
+.vscode/
+.idea/
+.DS_Store
+
+# --- GEÇİCİ DOSYALAR ---
+*.log
+*.tmp
