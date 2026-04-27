@@ -1,1 +1,12 @@
-data/processed/sizintisiz_temiz_veriler.json
+# Sanal ortamı gizle
+env/
+venv/
+
+# Veri dosyalarını gizle (En kritiği bu!)
+data/processed/
+*.json
+*.csv
+
+# Python gereksiz dosyaları
+__pycache__/
+*.pyc
