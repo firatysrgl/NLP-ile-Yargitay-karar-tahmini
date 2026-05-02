@@ -19,7 +19,7 @@ if st.button("Kararı Tahmin Et", type="primary"):
     if not dava_metni.strip():
         st.warning("Lütfen tahmin yapılması için bir dava metni girin.")
     else:
-        with st.spinner("BERTurk modeli metni analiz ediyor..."):
+        with st.spinner("YKTS metni analiz ediyor..."):
             # Backend'e gönderilecek veri formatı (JSON)
             payload = {"text": dava_metni}
             
