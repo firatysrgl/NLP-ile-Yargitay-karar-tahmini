@@ -1,1 +1,23 @@
+# --- ORTAK VE KRİTİK GİZLEMELER ---
+env/
+venv/
+__pycache__/
+*.pyc
+.DS_Store
+
+# --- VERİ VE SONUÇ DOSYALARI ---
+data/processed/
+*.json
+*.csv
+
+# --- MODEL DOSYALARI (Meral'in ve genel modeller) ---
 api/yargitay_modeli_final/
+notebooks/results/
+notebooks/yargitay_modeli_final/
+results/
+yargitay_modeli_final/
+*.safetensors
+*.pt
+*.bin
+*.zip
+yargitay_modeli_final.zip
