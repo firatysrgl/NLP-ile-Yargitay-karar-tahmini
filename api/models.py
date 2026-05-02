@@ -1,8 +1,8 @@
 from pydantic import BaseModel
 
-class DecisionInput(BaseModel):
+class PredictRequest(BaseModel):
     text: str
 
-class PredictionOutput(BaseModel):
-    prediction: str  # "Onama" veya "Bozma"
+class PredictResponse(BaseModel):
+    prediction: str
     confidence: float
