@@ -1,0 +1,23 @@
+# Sanal ortamı gizle
+env/
+venv/
+
+# Veri dosyalarını gizle (En kritiği bu!)
+data/processed/
+*.json
+*.csv
+
+# Python gereksiz dosyaları
+__pycache__/
+*.pyc
+# Model ve Eğitim Dosyaları (BUNLARI GİZLE)
+notebooks/results/
+notebooks/yargitay_modeli_final/
+results/
+yargitay_modeli_final/
+*.safetensors
+*.pt
+*.bin
+# Nihai model teslimat paketi
+*.zip
+yargitay_modeli_final.zip
